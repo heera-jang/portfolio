@@ -1,0 +1,172 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+
+@keyframes sc_ani {
+   0% {
+      transform: translateY(-70%);
+      opacity: 0.7;
+      color: #fff;
+  }
+  100% {
+      transform: translateY(100%);
+      opacity: 1;
+}
+}
+@keyframes h2_ani {
+    0% {
+        letter-spacing: 5rem;
+   }
+   100% {
+    letter-spacing:0;
+ }
+ }
+
+.videoBox a{padding-top: 10px;
+    box-sizing: border-box;
+    position: absolute; left: 50%; bottom: 10%;
+    transform: translateX(-50%);
+    width: 50px; height: 100px;
+    text-align: center;
+    border: 2px solid #eaeaea;
+    border-radius: 30px;
+    overflow: hidden;
+    background: rgba(11,61,145,.3);}
+
+.videoBox a i{font-size: 2rem;}
+.videoBox a .scrollMove span{display: block; background: #eaeaea; width: 3px; height: 5px; margin: 0 auto 8px;
+            border-radius: 50px; box-shadow: 0 0 10px 2px;}
+.videoBox a .scrollMove span:nth-of-type(2){height: 10px;}
+.videoBox a .scrollMove span:nth-of-type(3){height: 15px; margin-bottom: 10px;}
+
+.videoBox a .scrollMove{position: relative; animation: sc_ani 1s infinite alternate;}
+
+#content{ width:100%; margin:0; height:2300px; background:rgba(0,0,0,.9); position: relative;}
+/* #content section{overflow: hidden;} */
+#content h2{font-family: 'Nasa'; position: absolute; top: -500px; width: 100%; text-align: center;
+     font-size: 7rem; color: #EAEAEA; animation: h2_ani 3s 1 alternate;}
+#content .innerTop{width: 100%; background: #000; opacity: .9;}
+#content .con_wrap{margin: 0 auto; padding: 100px 0; width: 75%; display: flex; justify-content: space-around; align-items: center; position: relative;}
+#content .con_wrap a{width: 60%; height: 500px; background: url(../images/story/you_a01.jpg);background-size: cover;background-repeat: no-repeat;
+     align-items: center;display: flex; justify-content: center;position: relative; z-index: 3; background-position: center;}
+#content .con_wrap dl{width: 35%;}
+#content .con_wrap dl dt{text-align: left; font-size: 4.5rem; margin-bottom: 40px; font-family: 'Nasa';}
+#content .con_wrap dl dd{margin: 20px 0; text-align: justify; word-break: break-all; line-height: 1.8rem;}
+#content .innerTop .maru{width: 80%; margin: 0 auto; display: flex; justify-content: space-between; padding-bottom: 100px;}
+#content .innerTop .maru .maruInner ul{display: flex; justify-content: space-between;  align-items: center; gap: 20px;}
+#content .innerTop .maru .maruInner ul li{font-size: 1.1rem; font-weight: 600;}
+
+
+/* feature film 영역 */
+.feature .inWrap {position: relative;}
+.feature .fInner {margin: 150px auto; width: 95%; overflow: hidden; overflow: hidden; }
+.feature li {float: left; width: 188px; height: 282px; list-style: none}
+.feature li a {position: relative; display: block; background: #f0f0f0; height: 100%; margin: 0 3%;
+	box-shadow: 2px 2px 5px gray; text-align: center;}
+.feature li span {display: block; position: absolute; bottom: -3em; width: 100%; color:#333; font-size: 1em; font-weight: 400;}
+.feature li:nth-child(1) a{background: url(../images/fitem01.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(2) a{background: url(../images/fitem02.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(3) a{background: url(../images/fitem03.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(4) a{background: url(../images/fitem04.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(5) a{background: url(../images/fitem05.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(6) a{background: url(../images/fitem06.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(7) a{background: url(../images/fitem07.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(8) a{background: url(../images/fitem08.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(9) a{background: url(../images/fitem09.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(10) a{background: url(../images/fitem10.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(11) a{background: url(../images/fitem11.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(12) a{background: url(../images/fitem12.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(13) a{background: url(../images/fitem13.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(14) a{background: url(../images/fitem14.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(15) a{background: url(../images/fitem15.jpg) center center no-repeat;	background-size: cover;}
+.feature li:nth-child(16) a{background: url(../images/fitem16.jpg) center center no-repeat;	background-size: cover;}
+
+.feature .swiper-pagination {position: relative; margin-top: 50px;}
+.feature .swiper-pagination-progress .swiper-pagination-progressbar{background: #0B3D91;}
+.feature .button div{position: absolute; width: 60px; height: 60px; background: #0B3D91;
+	color: #fff; border-radius: 50%; text-align: center; top: 50%; box-shadow: 2px 2px 5px gray; transition: all 0.2s;}
+.feature .button div:active {transform: translate(2px,2px);}
+.feature .button a {display: block;	height: 100%;}
+.feature .back a {background: url(../images/back.svg) center center no-repeat;	background-size: 30px 30px; text-indent: -999px; overflow: hidden;}
+.feature .next a {background: url(../images/next.svg) center center no-repeat; background-size: 30px 30px; text-indent: -999px; overflow: hidden;}
+.feature .back {left: 1%;}
+.feature .next {right: 1%;}
+
+#content .innerBottom div{width: 100%; height: 500px; background: url(../images/sub2.png) center center no-repeat; background-size: cover;}
+#content .innerBottom div p {font-family: 'Nasa'; font-size: 5rem; font-weight: 600; text-align: center; padding-top: 150px; line-height: 6rem;}
+
+/* 일반 pc */
+@media screen and (max-width:1550px) {
+	#content .con_wrap{ width: 90%;}
+}
+
+@media screen and (max-width:1280px) {
+    #content .con_wrap dl {
+        width: 30%;
+    }
+    #content .innerTop .maru {
+        width: 90%;}
+	
+}
+
+@media screen and (max-width:1150px) { 
+    #content .con_wrap dl{width: 25%;}
+    #content .con_wrap dl dt{font-size: 3.5rem;}
+    #content .con_wrap dl dd span{display: none;}
+	
+}
+@media screen and (max-width:1100px) { 
+	#content .innerBottom div p {font-size: 4rem; padding-top: 150px; line-height: 4.5rem;}
+}
+
+/* 테블릿 */
+@media screen and (max-width:1070px) {
+    #content .con_wrap{flex-direction: column;}
+    #content .con_wrap dl{width: 90%; margin: 0 auto; }
+    #content .con_wrap dl dt{text-align: center; margin-bottom: 20px;}
+    #content .maru .none2{display: none;}
+
+}
+
+/* 소형 테블릿 */
+@media screen and (max-width:768px) {
+	#content h2{font-size: 5rem;}
+    #content  .videoArea iframe{width: 600px;}
+
+    .feature .button div{width: 40px; height: 40px;}
+	.feature .button div a {background-size: 20px 20px;}
+    #content .innerBottom div p {font-size: 3rem; padding-top: 150px; line-height: 3.5rem;}
+    #content .maru .none1{display: none;}
+}
+
+/* 모바일 */
+@media screen and (max-width:640px) {
+	
+}
+
+/* 소형 모바일 */
+@media screen and (max-width:480px) {
+	.feature .fInner {width: 95%;}
+	.feature li {width: 140px; height: 210px;}
+	.feature li span {font-size: 1.1667em;}
+	.feature .button {display: none;}
+}
+
+
+/* 최소 사이즈 처리 */
+@media screen and (max-width:480px) {
+	
+}

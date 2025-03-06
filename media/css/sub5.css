@@ -1,0 +1,121 @@
+/* 와이드 pc  */
+
+	
+.videoBox{width:100%;height:100%; overflow:hidden; position:absolute}
+
+#imgBG{
+	position:fixed; /*고정=>fixed/ 스크롤처리=>absolute */
+   left:50%;
+   top:50%; /*오른쪽, 아래에 여백을 두지않고 꽉차게 표시*/
+   width:auto;
+   min-width:100%; /*동영상 너비를 꽉차게*/
+   height:auto;
+   min-height:100%; /*동영상 높이를 꽉차게*/
+  transform:translateX(-50%) translateY(-50%);
+   z-index:-100;
+}
+
+@keyframes sc_ani {
+   0% {
+      transform: translateY(-70%);
+      opacity: 0.7;
+      color: #fff;
+  }
+  100% {
+      transform: translateY(100%);
+      opacity: 1;
+}
+}
+
+@keyframes h2_ani {
+    0% {
+        letter-spacing: 5rem;
+   }
+   100% {
+    letter-spacing:0;
+ }
+ }
+
+.videoBox a{padding-top: 10px;
+    box-sizing: border-box;
+    position: absolute; left: 50%; bottom: 10%;
+    transform: translateX(-50%);
+    width: 50px; height: 100px;
+    text-align: center;
+    border: 2px solid #eaeaea;
+    border-radius: 30px;
+    overflow: hidden;
+    background: rgba(11,61,145,.3);}
+
+.videoBox a i{font-size: 2rem;}
+.videoBox a .scrollMove span{display: block; background: #eaeaea; width: 3px; height: 5px; margin: 0 auto 8px;
+            border-radius: 50px; box-shadow: 0 0 10px 2px;}
+.videoBox a .scrollMove span:nth-of-type(2){height: 10px;}
+.videoBox a .scrollMove span:nth-of-type(3){height: 15px; margin-bottom: 10px;}
+
+.videoBox a .scrollMove{position: relative; animation: sc_ani 1s infinite alternate;}
+
+#content{width:100%; margin:0; height: auto; background:rgba(0,0,0,.8);position: relative;}
+#content h2{font-family: 'Nasa'; position: absolute; top: -500px; width: 100%; text-align: center; font-size: 7rem; color: #EAEAEA;
+    animation: h2_ani 3s 1 alternate;}
+#content section {padding: 150px 50px 100px 50px;}
+#content .grid img{transition: all .5s ease-out; border: 2px solid #EAEAEA; box-sizing: border-box;}
+#content .grid .grid-image-item:hover img{transform: scale(1.05); border: 2.5px solid #fc3d21; box-shadow: 1px 1px 15px rgba(251,61,33,.8);}
+#content div p{font-size: 1.1rem; line-height: 1.8rem; width: 80%; margin: 0 auto; padding-bottom: 50px; text-align: center;}
+#content div p strong{font-size: 2.5rem; margin-bottom: 15px; display: block;}
+
+
+
+/*-------------------------------------------------------------------*/
+.grid-image-item,.grid--images .grid-sizer {width: 20%;}
+.grid-image-item {
+  float: left; margin-bottom: 7px;
+}
+
+.grid-image-item img{
+    border-radius: 3%;
+    display: block;
+    width: 96%;margin: 10px auto;
+}
+
+
+/*-------------------------------------------------------------------*/
+
+@media screen and (max-width:1280px) {
+    
+  .grid-image-item,
+  .grid--images .grid-sizer { width: 20%;}
+  
+  }
+
+
+@media screen and (max-width:1024px) {
+    
+.grid-image-item,
+.grid--images .grid-sizer { width: 33.33%;}
+
+}
+
+@media screen and (max-width:768px) {
+  #content h2{font-size: 5rem; }
+  #content div p{font-size: 1rem; line-height: 1.5rem; width: 85%;}
+  #content div p strong{font-size: 2rem; margin-bottom: 15px; display: block;}
+  #content .grid .grid-sizer .none img{display: none;}
+
+
+ .grid-image-item,
+ .grid--images .grid-sizer {width: 50%;}
+}
+
+@media screen and (max-width:640px){
+ .grid-image-item,
+ .grid--images .grid-sizer {width: 100%;}
+ #content .grid .grid-sizer .none2 img{display: none;}
+}
+
+@media screen and (max-width:485px){
+  #content div p strong {
+    font-size: 2rem;
+    line-height: 2.5rem;
+}
+ }
