@@ -1,0 +1,16 @@
+{
+    "sam": [
+        {"Name":"라코르 정","Image":"./images/content3/sub3_product1.jpg","pop_img":"./images/content3/sub3_product1.jpg","pop_type":"전문의약품 > 순환기/대사질환계용약","pop_text":"피마사르탄 단독 요법으로 혈압이 적절하게 조절되지 않는 본태성 고혈압"},
+        {"Name":"맥페란","Image":"./images/content3/sub3_product2.jpg","pop_img":"./images/content3/sub3_product2.jpg","pop_type":"전문의약품 > 소화기관용약","pop_text":"항암화학요법 후 지연된 구역, 구토 예방, 방사선요법 유발 구역, 구토 예방"},
+        {"Name":"메녹틸","Image":"./images/content3/sub3_product3.jpg","pop_img":"./images/content3/sub3_product3.jpg","pop_type":"전문의약품 > 소화기관용약","pop_text":"위장관 경련 및 과민성 대장증후군"},
+        {"Name":"라베듀엣정","Image":"./images/content3/sub3_product4.jpg","pop_img":"./images/content3/sub3_product4.jpg","pop_type":"전문의약품 > 소화기관용약","pop_text":"위궤양, 십이지장궤양,미란성 또는 궤양성 위식도역류질환 / 위식도역류질환의 증상 완화"},
+        {"Name":"디푸란 캡슐","Image":"./images/content3/sub3_product5.jpg","pop_img":"./images/content3/sub3_product5.jpg","pop_type":"전문의약품 > 피부/비뇨기계용약","pop_text":"급성 또는 재발성 질칸디다증"},
+        {"Name":"에탈로프 정","Image":"./images/content3/sub3_product6.jpg","pop_img":"./images/content3/sub3_product6.jpg","pop_type":"전문의약품 > 정신신경계용약","pop_text":"주요우울장애, 광장공포증을 수반하거나 수반하지 않는 공황장애, 사회불안장애(사회공포증), 범불안장애, 강박장애의 치료"},
+        {"Name":"아토스타 정","Image":"./images/content3/sub3_product7.jpg","pop_img":"./images/content3/sub3_product7.jpg","pop_type":"전문의약품 > 순환기/대사질환계용약","pop_text":"원발성 고콜레스테롤혈증 / 동형접합 가족형 고콜레스테롤혈증(HoFH)"},
+        {"Name":"레조트론 정","Image":"./images/content3/sub3_product8.jpg","pop_img":"./images/content3/sub3_product8.jpg","pop_type":"전문의약품 > 소화기관용약","pop_text":"완하제 투여로 증상완화에 실패한 성인에서 만성변비 증상의 치료"},
+        {"Name":"다플디엠정","Image":"./images/content3/sub3_product9.jpg","pop_img":"./images/content3/sub3_product9.jpg","pop_type":"전문의약품 > 순환기/대사질환계용약","pop_text":"제2형 당뇨병: 이 약은 제2형 당뇨병 환자의 혈당 조절을 향상시키기 위해 식사요법 및 운동요법의 보조제로 투여한다."},
+        {"Name":"테디엠메트서방정","Image":"./images/content3/sub3_product10.jpg","pop_img":"./images/content3/sub3_product10.jpg","pop_type":"전문의약품 > 순환기/대사질환계용약","pop_text":"테네리글립틴과 메트포르민의 병용투여가 적합한 제2형 당뇨병 환자의 혈당조절을 향상시키기 위해 식사요법 및 운동요법 보조제로 투여"},
+        {"Name":"아토스타정","Image":"./images/content3/sub3_product11.jpg","pop_img":"./images/content3/sub3_product11.jpg","pop_type":"전문의약품 > 순환기/대사질환계용약","pop_text":"(1) 심근경색증에 대한 위험성 감소 (2) 뇌졸중에 대한 위험성 감소 (3) 혈관재생술 및 만성 안정형 협심증에 대한 위험성 감소"},
+        {"Name":"클로피 정","Image":"./images/content3/sub3_product12.jpg","pop_img":"./images/content3/sub3_product12.jpg","pop_type":"전문의약품 > 순환기/대사질환계용약","pop_text":"허혈뇌졸중, 심근경색 또는 말초동맥성 질환이 있는 환자에는 클로피도로그렐로서 1일 1회 75 mg을 경구투여한다."}
+    ]
+}

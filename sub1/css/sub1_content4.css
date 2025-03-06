@@ -1,0 +1,21 @@
+@charset "utf-8";
+
+/* 오시는길 페이지 내용영역 */
+.content_area{margin: 0 auto; width: 1400px;}
+.content_area .way{margin-top: 100px;}
+.content_area .tab_menu{width: 800px; margin: 0 auto; text-align: center; display: flex; justify-content: space-between; font-size: 1.5rem;  }
+.content_area .map_box .tab {width: 200px; 
+    padding: 10px; border-radius: 30px;}
+.content_area .map_box .tab li{text-align: center;}
+.content_area .section_box{height: 1200px; overflow: hidden;}
+
+.content_area .map_box{margin-top: 150px;}
+.content_area .map_box i{font-size: 0.6rem; color: #ED1C24;}
+.content_area .map_box h3{font-size: 2.81rem; text-align: center; margin-bottom: 80px;}
+.content_area .map_box #map1, #map2, #map3{width: 1400px; height: 595px;}
+
+.content_area .map_box .text_box p{width: 1030px; margin: 0 auto; font-size: 1.25rem; font-weight: 600; line-height: 4rem;
+    border-bottom: 2px solid #ccc;}
+.content_area .map_box .text_box{margin: 50px 0 200px 0 ;}
+.content_area .map_nav{width: 450px; display: flex; justify-content: space-between; margin: 50px auto;}
+

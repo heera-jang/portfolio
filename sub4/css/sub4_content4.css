@@ -1,0 +1,36 @@
+.content_area div h3{font-size: 2.5rem; text-align: center; margin-bottom: 50px;}
+/* Tap메뉴 영역*/
+.content_area .tab_box{margin-bottom: 200px;}
+.content_area .tab_box .tab_menu {display: flex; gap: 10px;}
+.content_area .tab_box .tab_menu{border-bottom: 2px solid #333; padding: 25px; width: 1200px; margin: 0 auto; 
+    display: flex; justify-content: space-between; transition: all .5s ease-out;  }
+.content_area .tab_box .tab_menu a{ font-size: 1.5rem;}
+.content_area .tab_box .tab_menu .current{font-size: 2rem; font-weight: 700;}
+.content_area .tab_box .tab-content {width: 1200px; margin: 0 auto; display: none;}
+.content_area .tab_box .show {display: block;}
+.content_area .tab-content .textBox{width: 1200px; margin: 0 auto;}
+.content_area .tab-content .textBox .textTop{margin-top: 50px;}
+.content_area .tab-content .textBox .textTop strong{font-size: 3.5rem; color: #ED1C24;}
+.content_area .tab-content .textBox .textTop>p{font-size: 1.3rem; font-weight: 500;}
+
+.content_area .textBox .textTop{display: flex; justify-content: space-around; align-items: center;}
+.content_area .tab-content .textBottom{display: flex; justify-content: space-between; margin-top: 30px; line-height: 2.1rem;} 
+
+
+
+/* faq 내용영역 */
+.faq{width:1400px; margin: 0 auto; margin-bottom: 200px; }  
+.faq .hgroup{position:relative; margin:0 0 10px 0;}  
+.faq .hgroup .all{position:absolute; top:-45px; right:10px;  text-decoration:none;}  
+.faq ul{background: rgba(255,255,255,.6);}  
+.faq .q{margin:0; position: relative;}  
+.faq .q a.trigger{display:block; padding:30px; background:#ddd; text-align:left; 
+    font-size: 1.25rem; font-weight: 600;  margin: 20px 0; border: 1px solid #ccc;
+    border-radius: 30px;}  
+.faq .hide .q a.trigger{font-weight:normal; background:none}  
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus{font-weight: 600;} 
+.faq .q span{display: block; position: absolute; right: 30px; top:15px} 
+.faq .a{margin:0; padding:10px 15px; line-height:2rem; font-size: 1.1rem; width: 1200px;
+    padding-bottom:10px; margin: 0 auto; padding-top:10px; display: none;} 

@@ -1,0 +1,57 @@
+@charset "utf-8";
+
+.content_area{position: relative;}
+.content_area .content_top{width: 1400px; margin: 100px auto; display: flex; justify-content: space-between;}
+.content_area .content_top ul .title1, .title2{font-size: 2.5rem; font-weight: 700; padding-bottom: 80px;}
+.content_area .content_top ul .title1::after{content: ''; display: block; width: 250px; height: 5px; background: #F4911D;
+transform: skew(240deg);}
+.content_area .content_top ul .title2::after{content: ''; display: block; width: 180px; height: 5px; background: #F4911D;
+    transform: skew(240deg);}    
+.content_area .content_top ul li:nth-of-type(2){padding-right: 50px; font-size: 1.05rem; line-height: 200%;}
+.content_area .content_top img{box-shadow: 4px 4px 10px rgba(0,0,0, .5);}
+
+
+
+/* faq 내용영역 */
+.faq{width:1400px; border-bottom:1px solid #ddd;font-size:12px; margin: 0 auto; margin-bottom: 200px; }  
+.faq .hgroup{position:relative;margin:0 0 10px 0;}  
+.faq .hgroup .all{position:absolute; top:5px; right:10px;  text-decoration:none;}  
+.faq ul{background: rgba(255,255,255,.4);}  
+.faq .q{margin:0; border-top:1px solid #ddd; position: relative;}  
+.faq .q a.trigger{display:block; padding:30px 15px; background:#fafafa; text-align:left; 
+    font-size: 1.25rem; font-weight: 600;}  
+.faq .hide .q a.trigger{font-weight:normal;background:none}  
+.faq .q a.trigger:hover,  
+.faq .q a.trigger:active,  
+.faq .q a.trigger:focus{background:#F4911D; color:#fff; font-weight: 600;} 
+.faq .q span{display: block; position: absolute; right: 15px; top:10px} 
+.faq .a{margin:0; padding:10px 15px; line-height:2rem; font-size: 1.1rem;
+    padding-bottom:10px; margin-top:0px; margin-bottom:0px; height:80px; 
+    padding-top:10px; display: none;} 
+
+
+
+
+
+/* 채용 Q&A 내용영역*/
+.contact{width: 1230px; margin: 0 auto 140px; padding: 30px; background: rgba(244, 149, 29, .1);
+border-radius: 100px 0 100px 0;}
+.contact div{padding: 20px;}
+.contact label{font-size: 1.1rem; font-weight: bold;
+    width: 500px; display: block; margin-bottom: 10px;}
+.contact input, .contact textarea{padding: 15px 5%; width: 90%; font-size: 1.3rem;
+    background: #fff; color: #333 ;
+    border-radius: 10px; 
+    border: 0; 
+    box-shadow: 1px 1px 10px 1px rgba(0,0,0,.1); 
+    transition: all .5s;}
+.contact input:focus, .contact textarea:focus{
+    /* box-shadow: 1px 1px 10px 1px rgba(0,0,0,.4);  */
+    transform: scale(1.03); background:#ffffff ;}     
+.contact textarea{height: 230px; }
+.contact button{width: 220px; padding: 10px 50px; background:rgb(244, 145, 29); color: #fff; font-size: 1.3rem; border-radius: 15px;
+        border: 0; margin: 30px auto 0; display: block; cursor: pointer; font-weight: 600;}
+
+.contact #contact-form{width: 1200px; display: flex; justify-content: center; }
+
+

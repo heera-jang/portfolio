@@ -1,0 +1,112 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+
+    //$userid=$_SESSION['userid'];
+    //$username=$_SESSION['username'];
+    //$usernick=$_SESSION['usernick'];
+    //$userlevel=$_SESSION['userlevel'];
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개-오시는길</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../common/css/aos.css">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content4.css">
+</head>
+<body>
+    <div class="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+    <div class="wrap">
+        <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <strong>회사소개</strong>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li><a href="./sub1_1.html">인사말</a></li>
+                <li><a href="./sub1_2.html">기업이념</a></li>
+                <li><a href="./sub1_3.html">연구소・공장</a></li>
+                <li><a class="current" href="./sub1_4.html">오시는 길</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <i class="fa-solid fa-house"></i> > 회사소개 > <strong>오시는 길</strong>
+                </div>
+                <h2>오시는 길</h2>
+                <div><p>location</p></div>
+            </div>
+            <div class="content_area">
+                <div class="map_box tabs">
+                    <ul class="tab_menu">
+                        <li><a href="#" class="tab tab1">본사</a></li>
+                        <li><a href="#" class="tab tab2">연구소</a></li>
+                        <li><a href="#" class="tab tab3">공장</a></li>
+                    </ul>
+                
+                     <div class="section_box">
+                        <section class="way contlist">
+                           <h3  data-aos="fade-up">・본사・</h3>
+                           <div id="map1"></div>
+                           <div class="text_box" data-aos="fade-right">
+                               <p><i class="fa-solid fa-circle"></i> 주소 : (우 04522) 서울특별시 중구 남대문로9길 24 패스트파이브 타워 6~8층</p>
+                               <p><i class="fa-solid fa-circle"></i> 전화 : 02-2021-9300 (Fax : 02-2021-9427)</p>
+                               <p><i class="fa-solid fa-circle"></i> 안내 : 지하철 2호선 을지로입구역 1번 출구 도보 2분</p>
+                           </div>
+                        </section>
+                        <section class="way contlist">
+                           <h3>・연구소・</h3>
+                           <div id="map2"></div>
+                           <div class="text_box">
+                               <p><i class="fa-solid fa-circle"></i> 주소 : (우 17084) 경기도 용인시 기흥구 탑실로35번길 71 (공세동)</p>
+                               <p><i class="fa-solid fa-circle"></i> 전화 : 031-270-0600 (Fax : 031-283-0057)</p>
+                               <p><i class="fa-solid fa-circle"></i> 안내 : ① 경부고속도로 기흥IC 진출  ② 우회전  ③ 고메고가도로 진입전 우회전  ④ 한국민속촌 방향 이정표를 보고 우회전</p>
+                               <p>⑤ 파크랜드 물류창고 삼거리에서 우회전  ⑥ 오일뱅크에서 좌회전  ⑦ 유한양행 중앙연구소 방향 진입</p>
+                           </div>
+                        </section>
+                        <section class="way contlist">
+                           <h3>・공장・</h3>
+                           <div id="map3"></div>
+                           <div class="text_box">
+                               <p><i class="fa-solid fa-circle"></i> 주소 : (우 27327) 충청북도 충주시 충주산단1로 167 (용탄동)</p>
+                               <p><i class="fa-solid fa-circle"></i> 전화 : 043-841-0700 (Fax : 043-842-7301)</p>
+                               <p><i class="fa-solid fa-circle"></i> 안내 : ① 충주IC  ② 중부내륙고속도로 충주방면  ③ 중원대로 고가 진입  ④ 충원대로 법원, 시청방면 좌회전  ⑤ 목행산단5로</p>
+                               <p>농수산물도매시장 방면 우회전  ⑥ 국원대로 충주산업단지방면 좌회전  ⑦ 충주산업단지 진입</p>
+                           </div>
+                        </section>
+                    </div>
+                </div >
+            </div>
+        <script type="text/javascript" src="//dapi.kakao.com/v2/maps/sdk.js?appkey=dc9d91a3a37021fd21dd0a5dc0f50095"></script>
+        <script src="./js/map.js"></script>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+    </div>
+    <!-- <script src="https://kit.fontawesome.com/f2fbef274a.js" crossorigin="anonymous"></script> -->
+    <script src="../common/js/aos.js"></script>
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/jquery.easing.1.3.js"></script>
+    <script src="../common/js/common.js"></script>
+    <script src="../common/js/select.js"></script>
+    <script src="./js/sub1_4.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+</body>
+</html>

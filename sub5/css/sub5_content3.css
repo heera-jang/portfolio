@@ -1,0 +1,33 @@
+@charset "utf-8";
+
+/* 연구소,공장 페이지 내용영역 */
+.content_area{width: 1400px; height: 2000px; margin: 0 auto; overflow: hidden;}
+.content_area .content_top{position: relative;}
+.content_area .content_top .con1_top{float: left; }
+.content_area .content_top .con1_img{float: right;}
+.content_area .content_top .con1_img img{ border-radius: 150px 0 0 0;}
+.content_area .content_top .con1_top p:nth-of-type(1){font-size: 2.5rem; font-weight: 700;}
+.content_area .content_top .con1_top p:nth-of-type(1)::after{content: ''; width: 400px; height: 5px; background: #F4911D;
+    position: absolute; top: 70px; left: 0;}
+.content_area .content_top .con1_top p:nth-of-type(1)::before{content: ''; width: 25px; height: 25px; border-radius: 50%; position: absolute;    
+    top: 60px; left: 380px; background: #F4911D;}
+.content_area .content_top .con1_top p:nth-of-type(2){font-size: 1.5rem; color: #666; margin-top: 50px;}
+.content_area .content_top .con1_bottom{overflow: hidden; background: rgba(255,255,255,.8); box-shadow: 2px 2px 5px rgba(0,0,0, .7);z-index: 10;  
+    width: 752px; height: 334px; text-align: left; position: absolute; top: 350px; left: 10px;}
+.content_area .content_top .con1_bottom p{font-size: 1.13rem; padding: 40px; z-index: 20;}
+ 
+
+.content_area .content_bottom{position: relative;}
+.content_area .content_bottom .con2_img{float: left; margin-top: 400px;}
+.content_area .content_bottom .con2_img img{border-radius: 0 150px 0 0;}
+.content_area .content_bottom .con2_top{float: right; margin-top: 400px;}
+.content_area .content_bottom .con2_top p:nth-of-type(1){font-size: 2.5rem; font-weight: 700; text-align: right;}
+.content_area .content_bottom .con2_top p:nth-of-type(1)::after{content: ''; width: 400px; height: 5px; background: #F4911D;
+    position: absolute; top: 1005px; right: 0;}
+.content_area .content_bottom .con2_top p:nth-of-type(1)::before{content: ''; width: 25px; height: 25px; border-radius: 50%; position: absolute;    
+    top: 995px; right: 380px; background: #F4911D;}
+.content_area .content_bottom .con2_top p:nth-of-type(2){font-size: 1.5rem; color: #666; margin-top: 50px;
+    text-align: right;}
+.content_area .content_bottom .con2_bottom{overflow: hidden; background: rgba(255,255,255,.8); z-index: 10; box-shadow: 2px 2px 5px rgba(0,0,0, .7);
+    width: 765px; height: 350px; text-align: right; margin-left: 650px; position: absolute; right: 10px; top: 1350px;}
+.content_area .content_bottom .con2_bottom p{font-size: 1.13rem; padding: 40px; z-index: 20; }

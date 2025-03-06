@@ -1,0 +1,38 @@
+@charset "utf-8";
+
+/* 제품소개 콘텐츠 영역 */
+
+#content{width: 1400px; margin: 0 auto;}
+#content .top_text p{ margin: 0 auto; text-align: center; font-size: 1.25rem; }
+#content .top_text span img{margin: -15px 440px;}
+#content .img{margin: 70px 0 70px 0;}
+
+
+#content .content_area .search_box{margin: 0 0 50px 300px;}
+#content .content_area .search_box label{font-size: 1.2rem; font-weight: 400; margin-right: 20px;}
+#content .content_area .search_box input{width: 500px; height: 40px; padding: 0 10px; border: 1px solid #ddd;}
+#content .content_area .search_box button{ font-family: 'noto sans kr'; font-size: 1.1rem; width: 100px; height: 40px; border-radius: 15px;
+    border: none; background-color: #ED1C24; color: #fff;}
+#content .content_area .product .search_box .btn_all{background-color: #ddd; color: #333;}
+
+/* 제품리스트들 */
+.product_list{box-sizing: border-box;}
+.product ul{width: 1400px; display: flex; flex-wrap: wrap; 
+    justify-content: space-evenly; margin-bottom: 100px;}
+.product ul li{width: 350px; text-align: center; padding: 20px; height: 370px;
+   margin-bottom: 50px;}
+.product ul li:hover img{transform: scale(1.1);}
+.product ul img{height: 300px; z-index: -10; transition: all .7s ease-out;}
+.product ul p{font-size: 1.2rem; font-weight: 500; margin-bottom: revert-layer; }
+
+/* 팝업 */
+.product .modal_box{position: fixed; width: 100%; height: 100%; z-index: 110;
+  left:0; top:0; background: rgba(0,0,0,.8); display: none;}
+.product .modal_box .popup{width:600px; height: 600px;
+    position: absolute; left: 50%; top:50%; transform: translate(-50%, -50%);
+    background: #fff; text-align: center; border-radius: 20px;}
+.product .modal_box .popup img{width:400px; margin: 10px;}
+.product .modal_box .popup dl{width: 500px;  margin:0 auto; text-align: center;}
+.product .modal_box .popup dt{font-size: 1.5em; font-weight: bold; margin-bottom: 10px;}
+.product .modal_box .popup dd{width: 400px; margin: 5px auto;}
+.product .modal_box .popup .close_pop i{ position: absolute; top: 30px; right: 30px;  font-size: 2rem;}

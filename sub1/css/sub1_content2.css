@@ -1,0 +1,69 @@
+@charset "utf-8";
+/* .text{position: fixed; right:0; top: 0; font-size: 50px; z-index: 100} */
+
+
+/* 기업이념 페이지 내용영역 */
+#content{position: relative;}
+.history_scroll_wrap .bg{margin: 0 auto; width: 2000px; position: absolute; top: 500px; left: 0; z-index: -20;}
+
+.history_scroll_wrap{margin: 0 auto; width: 1400px; height: 3200px; }
+
+/* 기업이념 탭 start */
+#content .slideMenu.navOn {position: fixed; width: 100%; z-index: 60;
+    left: 0; top: 0; margin-bottom: 0; background: #fff;
+    box-shadow: 0 0 5px 0 rgba(0, 0, 0,.25); transition: all .5s ease-out;}
+ 
+/* 기업이념 탭 end */
+#content .slideMenu ul {display: flex; justify-content: center;
+    align-items: center;}
+#content .slideMenu ul li a {width: 200px; line-height: 60px;
+    text-align: center; font-size: 1.13rem; font-weight: 500;
+    color: #666; transition: all 0.25s ease-out; }
+#content .slideMenu ul li a:is(:hover, .spy) { background: #ED1C24; 
+    color: #fff; border-radius: 20px;}
+
+  
+.history_scroll_wrap {display: block;}
+.history_scroll_wrap .slideMenu{position: sticky; top: 0; height: 70px;}
+.history_scroll_wrap .sec1{text-align: center; padding-top: 200px; position: relative;}
+.history_scroll_wrap .sec2{text-align: center; position: relative;}
+.history_scroll_wrap .sec3{text-align: center; position: relative;}
+
+
+
+.sec1 .name_box1{width: 319px; height: 70px; transform: skew(20deg); background: #ED1C24;  z-index: -10;
+    position: absolute; left: 540px; top: 200px;}
+.sec1 h3{font-size: 2.5rem; color: #fff;}
+.sec1 .sec1_top1{padding-top: 80px;}
+.sec1 .sec1_top1 p:nth-of-type(1){font-size: 2rem; font-weight: 700; letter-spacing: 10px;}
+.sec1 .sec1_top1 p:nth-of-type(2){font-size: 1.13rem; letter-spacing: 8px; font-weight: 600;}
+.sec1 .sec1_top1 span{color: #ED1C24;}
+.sec1>p{font-size: 1.25rem; margin-top: 50px;}
+.sec1>span{position: absolute; left: 680px; top: 440px;}
+.sec1>img{margin-top: 50px;}
+.sec1 .sec1_bottom{font-size: 1.25rem; margin: 50px 0 300px 0; line-height: 2.5rem;}
+.sec1 .sec1_bottom strong{font-size: 1.5rem;}
+
+.sec2{overflow: hidden; width: 1200px; margin: 180px auto;}
+.sec2_inner{overflow: hidden; margin: 100px 0 100px 0;}
+.sec2 .sec2_left{float: left;}
+.sec2 .sec2_right{float: right;width: 620px; height: 413px;}
+.sec2 .sec2_right p{line-height: 3rem; text-align: center; }
+.sec2 .name_box2{width: 369px; height: 70px; transform: skew(20deg); background: #ED1C24;  z-index: -10;
+    position: absolute; left: 415px; top: 0; display: flex;}
+.sec2 h3{font-size: 2.5rem; color: #fff;}
+.sec2 .sec2_inner p{font-size: 1.25rem;}
+.sec2 strong{font-size: 1.5rem;}
+
+
+.sec3 .name_box3{width: 319px; height: 70px; transform: skew(20deg); background: #ED1C24;  z-index: -10;
+    position: absolute; left: 540px; top: 0;}
+.sec3 h3{font-size: 2.5rem; color: #fff;}
+.sec3>p{margin-top: 80px; font-size: 1.25rem;}
+.sec3 ul{display: flex; justify-content: space-between; padding: 80px 0 300px 0;}
+.sec3 ul li{width: 320px; height: 350px; background: rgba(237,28,36,.2); padding-top: 100px; box-shadow: 2px 2px 10px rgba(237,28,36,.3); transition: all 1s ease-out; }
+.sec3 ul li:hover{transform: scale(1.1);}
+.sec3 ul li:hover span{color: #ED1C24;}
+.sec3 ul li p{font-size: 1.25rem;  font-weight: 500; line-height: 2rem;}
+.sec3 ul li span{font-size: 8rem; color: #fff; transition: all .5s ease-out;}
+

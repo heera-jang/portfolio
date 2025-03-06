@@ -1,0 +1,29 @@
+@charset "utf-8";
+#content{width: 1400px; margin: 0 auto;}
+#content .top_text{ margin: 0 auto; text-align: center; font-size: 1.25rem;  margin-bottom: 150px;}
+#content .img{margin: 70px 0 70px 0;}
+
+/* 제품설명 영역 */
+.title{display: flex; align-items: baseline; gap: 30px; position: relative; }
+.title h3::before{content: ''; display: block; position: absolute; top: 0; left: 0;
+    width: 119px; height: 89px; background: url(../images/content2/sub3_icon.svg); z-index: -100;}
+.title h3{margin-left: 80px; font-size: 3rem; font-size: 700;
+    text-shadow: -2px 0px #fff, 0px 2px #fff, 2px 0px #fff, 0px -2px #fff;}
+.title p{font-size: 1.8rem; font-weight: 600;}
+
+.content_inner{width: 1400px; margin: 100px auto; display: flex; justify-content: space-between; padding-bottom: 100px;}
+.content_inner img{margin-left: 70px;}
+
+.content_inner .text_line p{padding: 23px;}
+.content_inner .text_line p:nth-of-type(4){padding-top: 215px;}
+
+.content_inner .text_left{font-size: 1.2rem; font-weight: 600; line-height: 4rem;}
+.content_inner .text_left p:nth-of-type(4){margin-top: 200px;}
+
+.content_inner .text_right{font-size: 1.2rem; line-height: 4rem;}
+.content_inner .text_right p:nth-of-type(3){line-height: 2.2rem; margin-top: 12px;}
+.content_inner .text_right p:nth-of-type(4){background: #ccc; width: 100px; padding: 0 15px 8px 15px;
+    height: 50px; border-radius: 10px; margin-top: 5px;}
+
+
+

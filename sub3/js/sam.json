@@ -1,0 +1,16 @@
+{
+    "sam": [
+        {"Name":"하루 한 병 시리즈","Image":"./images/content1/sub3_product1.jpg","pop_img":"./images/content1/sub3_product1.jpg","pop_type":"식품ㆍ음료 > 음료","pop_text":"100mL / 병, 직접 음용"},
+        {"Name":"화이투벤콜드시럽/ 코프시럽/ 노즈시럽","Image":"./images/content1/sub3_product2.jpg","pop_img":"./images/content1/sub3_product2.jpg","pop_type":"일반의약품 > 감기약","pop_text":"다음의 1회 용량을 1일 3회 식후 30분에 복용한다. 만 15세 이상 1포(20ml)"},
+        {"Name":"케어랩 인지력케어 DW2009","Image":"./images/content1/sub3_product3.jpg","pop_img":"./images/content1/sub3_product3.jpg","pop_type":"건강기능식품 > 건강기능식품","pop_text":"1일 1회, 1회 2캡슐(800 mg)을 충분한 물과 함께 섭취하십시오."},
+        {"Name":"큐립연고","Image":"./images/content1/sub3_product4.jpg","pop_img":"./images/content1/sub3_product4.jpg","pop_type":"일반의약품 > 피부외용제","pop_text":"1일 수회(여러 차례) 적당량을 질환 부위에 바른다."},
+        {"Name":"마그랩(MgLAB) 젤리푸푸","Image":"./images/content1/sub3_product5.jpg","pop_img":"./images/content1/sub3_product5.jpg","pop_type":"건강기능식품 > 건강기능식품","pop_text":"1일 1회, 1회 1포(25 g)를 씹어서 섭취하십시오."},
+        {"Name":"퀵앤써액","Image":"./images/content1/sub3_product6.jpg","pop_img":"./images/content1/sub3_product6.jpg","pop_type":"의약외품","pop_text":"만 14세 이상 및 성인, 1회 1포, 1일 2회 복용"},
+        {"Name":"후디케어 습윤밴드","Image":"./images/content1/sub3_product7.jpg","pop_img":"./images/content1/sub3_product7.jpg","pop_type":"의약외품","pop_text":"환부에 1일 1회 내지 수회 1매씩 붙인다."},
+        {"Name":"드라이언액","Image":"./images/content1/sub3_product8.jpg","pop_img":"./images/content1/sub3_product8.jpg","pop_type":"일반의약품 > 피부외용제","pop_text":"저녁에 적용 부위에 적당량을 바른 후 다음 날 아침에 물로 씻어 제거한다."},
+        {"Name":"부채표 십신탕","Image":"./images/content1/sub3_product9.jpg","pop_img":"./images/content1/sub3_product9.jpg","pop_type":"일반의약품 > 감기약","pop_text":"보통 성인 1회 1병(100mL)을 1일 3회 식전 또는 식간에 복용한다."},
+        {"Name":"활짝정","Image":"./images/content1/sub3_product10.jpg","pop_img":"./images/content1/sub3_product10.jpg","pop_type":"일반의약품 > 소화기관용약","pop_text":"만 15세 이상 : 1회 2정 / 1일 3회 식후 30분에 복용(사용)한다. 단,복용시간은 4시간 이상으로 한다."},
+        {"Name":"세비타비겔","Image":"./images/content1/sub3_product11.jpg","pop_img":"./images/content1/sub3_product11.jpg","pop_type":"일반의약품 > 피부외용제","pop_text":"환부(질환 부위)를 깨끗이 씻어 내고 이 약을 1일 2회 아침, 저녁으로 환부(질환 부위)에 충분한 양을 바른다."},
+        {"Name":"동화니세르골린정 30mg","Image":"./images/content1/sub3_product12.jpg","pop_img":"./images/content1/sub3_product12.jpg","pop_type":"전문의약품 > 정신신경계용약","pop_text":"성인 : 니세르골린으로서 1일 1회 30mg을 식전에 경구투여 한다."}
+    ]
+}

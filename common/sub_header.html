@@ -1,0 +1,82 @@
+<header id="headerArea">
+    <div class="header_inner">
+        <h1 class="logo"><a href="../index.html">동화약품 로고</a></h1>
+        <div class="top_menu">
+            <ul>
+                <? if(!$userid){ //로그인이 안 된 상태냐? ?> 
+                    <li><a href="../login/login_form.php">로그인</a></li>
+                    <li><a href="../member/member_check.html">회원가입</a></li>
+                    <li><a href="#">검색</a></li>
+    
+                <? } else { //로그인이 된 상태냐? ?>
+                    <li><a href="../login/logout.php">로그아웃</a></li>
+                    <li><a href="../member/member_form_modify.php">정보수정</a></li>
+                    <li><a href="#">검색</a></li>
+                <? } ?>
+            </ul>
+        </div>
+        <div class="product_box">
+            <p>찾으시는 전문의약품을 검색해주세요.</p>
+            <div class="search_box">
+                <label for="text">제품명</label>
+                <input id="text" type="text" placeholder="클로피 정">
+                <button id="btn1" type="button">검색</button>
+            </div>
+        </div>
+        <nav id="gnb">
+            <h2 class="hidden">글로벌 네비게이션</h2>
+            <ul class="dropdownmenu">
+                <li class="m1 menu">
+                    <h3><a class="depth1" href="../sub1/sub1_1.html">회사소개</a><span></span></h3>
+                    <ul>
+                        <li><a href="../sub1/sub1_1.html">인사말</a></li>
+                        <li><a href="../sub1/sub1_2.html">기업이념</a></li>
+                        <li><a href="../sub1/sub1_3.html">연구소・공장</a></li>
+                        <li><a href="../sub1/sub1_4.html">오시는 길</a></li>
+                    </ul>
+                </li>
+                <li class="m2 menu">
+                    <h3><a class="depth1" href="../sub2/sub2_1.html">연구개발</a><span></span></h3>
+                    <ul>
+                        <li><a href="../sub2/sub2_1.html">R&D 소개</a></li>
+                        <li><a href="../sub2/sub2_2.html">연구성과</a></li>
+                        <li><a href="../sub2/sub2_3.html">중점연구분야</a></li>
+                        <li><a href="../sub2/sub2_4.html">조직 및 업무</a></li>
+                    </ul>
+                </li>
+                <li class="m3 menu">
+                    <h3><a class="depth1" href="../sub3/sub3_1.html">제품정보</a><span></span></h3>
+                    <ul>
+                        <li><a href="../sub3/sub3_1.html">신제품</a></li>
+                        <li><a href="../sub3/sub3_2.html">일반의약품</a></li>
+                        <li><a href="../sub3/sub3_3.html">전문의약품</a></li>
+                    </ul>
+                </li>
+                <li class="m4 menu">
+                    <h3><a class="depth1" href="../sub4/sub4_1.html">ESG경영</a><span></span></h3>
+                    <ul>
+                        <li><a href="../sub4/sub4_1.html">ESG철학</a></li>
+                        <li><a href="../sub4/sub4_2.html">환경경영</a></li>
+                        <li><a href="../sub4/sub4_3.html">인권경영</a></li>
+                        <li><a href="../sub4/sub4_4.html">윤리경영</a></li>
+                    </ul>
+                </li>
+                <li class="m5 menu">
+                    <h3><a class="depth1" href="../greet/list.php">커뮤니티</a><span></span></h3>
+                    <ul>
+                        <li><a href="../greet/list.php">공지사항</a></li>
+                        <li><a href="../news/list.php">동화뉴스</a></li>
+                        <li><a href="../adver/list.php">동화광고</a></li>
+                    </ul>
+                </li>
+                <li class="m6 menu">
+                    <h3><a class="depth1" href="../sub6/sub6_1.html">인재채용</a><span></span></h3>
+                    <ul>
+                        <li><a href="../sub6/sub6_1.html">채용안내</a></li>
+                        <li><a href="../sub6/sub6_3.html">채용 Q&A</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </div>
+</header>

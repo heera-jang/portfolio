@@ -1,0 +1,150 @@
+<?
+    session_start();
+    @extract($_GET);
+    @extract($_POST);
+    @extract($_SESSION);
+
+    //$userid=$_SESSION['userid'];
+    //$username=$_SESSION['username'];
+    //$usernick=$_SESSION['usernick'];
+    //$userlevel=$_SESSION['userlevel'];
+?>
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>회사소개-기업이념</title>
+    <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.0/css/all.min.css" integrity="sha512-9xKTRVabjVeZmc+GUW8GgSmcREDunMM+Dt/GrzchfN8tkwHizc5RP4Ok/MXFFy5rIjJjzhndFScTceq5e6GvVQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="../common/css/aos.css">
+    <link rel="stylesheet" href="../common/css/common.css">
+    <link rel="stylesheet" href="./common/css/sub1common.css">
+    <link rel="stylesheet" href="./css/sub1_content2.css">
+</head>
+<body>
+    <div class="skipNav">
+        <a href="#content">본문 바로가기</a>
+        <a href="#gnb">글로벌 네비게이션 바로가기</a>
+    </div>
+    <div class="wrap">
+        <? include "../common/sub_header.html" ?>
+        <div class="visual">
+            <strong>회사소개</strong>
+        </div>
+        <div class="sub_nav">
+            <ul>
+                <li><a href="./sub1_1.html">인사말</a></li>
+                <li><a  class="current" href="./sub1_2.html">기업이념</a></li>
+                <li><a href="./sub1_3.html">연구소・공장</a></li>
+                <li><a href="./sub1_4.html">오시는 길</a></li>
+            </ul>
+        </div>
+        <article id="content">
+            <div class="title_area">
+                <div class="line_map">
+                    <i class="fa-solid fa-house"></i> > 회사소개  ><strong>기업이념</strong>
+                </div>
+                <div><p>corporate philosophy</p></div>
+                <h2>기 업 이 념</h2>
+            </div>
+                <div class="history_scroll_wrap">
+                    <!-- .navBox -->
+                    <div class="slideMenu">
+                        <ul>
+                            <li><a href="#scroll1" class="link spy">동화의 의의</a></li>
+                            <li><a href="#scroll2" class="link">부채표의 의의</a></li>
+                            <li><a href="#scroll3" class="link">동화정신</a></li>
+                        </ul>
+                    </div>
+
+                    <div class="bg"><img src="./images/content2/sub1_content2_bg.svg" alt=""></div>
+                    <div>
+                        <div id="scroll1" class="sec1 boxMove" data-aos="fade-right">
+                            <div class="name_box1"></div>
+                            <h3>동화의 의의</h3>
+                            <div class="sec1_top1" data-aos="fade-up">
+                                <p>二人<span>同</span>心 其利斷金</p>
+                                <p>(이인동심 기리단금)</p>
+                            </div>
+                            <div class="sec1_top1" data-aos="fade-up">
+                                <p>時<span>和</span>年豊 國泰民安</p>
+                                <p>(시화연풍 국태민안)</p>
+                            </div>
+                            <p data-aos="fade-up">에서 '동(同)'자를 취하고, 에서 '화(和)'자를 취해 만들어졌다.</p>
+                            <img src="./images/content2/donghwa.svg" alt="" data-aos="fade-up">
+                            <div class="sec1_bottom" data-aos="fade-up">
+                                <p>이는 주역(周易)에서 비롯된 글로,<br>
+                                    <strong>"두 사람이 마음을 합하면 그 예리함이 쇠(金)도 자를 수 있다. <br>
+                                    나라가 화평하고 해마다 풍년이 들면 나라가 부강해지고 국민이 평안해진다."</strong>는<br>
+                                    뜻에서 1897년 회사 창업당시 상호를 동화로 정한 것이다.</p>
+                            </div>
+                            <span class="material-symbols-outlined">add</span>
+                        </div>
+                        <div id="scroll2" class="sec2 boxMove" data-aos="fade-right">
+                            <div class="name_box2"></div>
+                            <h3>부채표의 의의</h3>
+                           <div class="sec2_inner" >
+                             <div class="sec2_left" data-aos="fade-right" data-aos-duration="800"><img src="./images/content2/donghwa_icon.svg" alt=""></div>
+                             <div class="sec2_right" data-aos="fade-left" data-aos-delay="200">
+                                 <p><br>동화약품이 부채를 상표로 선택한 것 또한 시전(詩傳)의 <br>
+                                     <strong>"紙竹相合 生氣淸風(지죽상합 생기청풍)" <br>
+                                     즉, "종이와 대나무가 서로 합하여 맑은 바람을 일으킨다."</strong>는 <br>
+                                     뜻에서 비롯되었다.</p>
+                                 <p>상호인 '동화'와 마찬가지로 "민족이 합심하면 잘 살 수 있다."는 <br>
+                                     민족정신을 내포하고 있다.</p>
+                             </div>
+                           </div>
+                    </div>
+                    </div>
+                    <div id="scroll3" class="sec3 boxMove" data-aos="fade-right">
+                        <div class="name_box3"></div>
+                        <h3>동화정신</h3>
+                        <p data-aos="fade-up">동화정신은 1937년 취임한 5대 사장 보당 윤창식 선생의 경영철학을 7대 윤광열 사장이 명문화한 것이다.</p>
+                        <ul>
+                            <li data-aos="flip-left" >
+                                <span class="material-symbols-outlined">pill</span>
+                                <p>동화는 좋은 약을 만들어<br>
+                                소비자에게 봉사하고 <br>
+                               그 효험을 본 정당한 대가로 <br>
+                               경영되는 회사이다.</p></li>
+                            <li data-aos="flip-left" data-aos-duration="800" data-aos-delay="100">
+                                <span class="material-symbols-outlined">handshake</span>
+                                <p>동화는 정도를 밟고 <br>
+                                원리원칙에 의하여 <br>
+                                경영되는 회사이다.</p></li>
+                            <li data-aos="flip-left" data-aos-duration="800" data-aos-delay="200">
+                                <span class="material-symbols-outlined">diversity_3</span>
+                                <p>동화는 젊어서 정당하게<br>
+                                땀흘려 일하고 노후에<br>
+                                잘 살아 보려는<br>
+                                동화식구의 회사이다.</p></li>
+                            <li data-aos="flip-left" data-aos-duration="800" data-aos-delay="300">
+                                <span class="material-symbols-outlined">account_balance</span>
+                                <p>동화는 동화식구가<br> 
+                                업무수행중 잘못이 있을 경우<br> 
+                                이를 솔직히 시인할 줄 알고 고쳐서<br> 
+                                전화위복이 되게 하는 회사이다.</p></li>
+                        </ul>
+                    </div>
+                </div>
+        </article>
+        <? include "../common/sub_footer.html" ?>
+    </div>
+    <script src="https://kit.fontawesome.com/f2fbef274a.js" crossorigin="anonymous"></script>
+    <script src="../common/js/aos.js"></script>
+    <script src="../common/js/jquery-1.12.4.min.js"></script>
+    <script src="../common/js/jquery-migrate-1.4.1.min.js"></script>
+    <script src="../common/js/jquery.easing.1.3.js"></script>
+    <script src="../common/js/common.js"></script>
+    <script src="../common/js/select.js"></script>
+    <script src="./js/sub1_2.js"></script>
+    <script>
+        AOS.init({
+            easing: 'ease-in-out-sine'
+        });
+    </script>
+
+</body>
+</html>
